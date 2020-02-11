@@ -6,31 +6,34 @@ ul,
 ol {
     list-style: none;
 }
-.container {
-    width: 1110px;
-    margin: 0 auto;
-}
-
- a: {
-    text-decoration: none;
- }
-.page-header {
-    font-family: 'Roboto', sans-serif;
-    text-transform:uppercase;
-}
 img { 
     display: block;
     height:auto;
 
 }
+.container {
+    width: 1110px;
+    margin: 0 auto;
+
+}
+
+ a: {
+     display: block;
+    text-decoration: none;
+ }
+.page-header {
+    font-family: 'Roboto', sans-serif;
+    text-transform:uppercase;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
 
 .logo {
-    font-size: 20px;
+    font-size: 30px;
     color: #555252;
     float:left;
-    height: 40px;
-    padding-top: 38px;
     text-decoration: none;
+    margin-top: 5px;
 }
 
 .logo::first-letter {
@@ -43,12 +46,18 @@ float:right;
 }
 .menu {
 float:right;
-padding-top: 38px;
+/* padding-top: 38px; */
 }
+  
+
 .menu li {
 float: left;
-padding: 15px;
-font-size: 15px;
+/* padding: 15px; */
+font-size: 14px;
+color: rgb(26, 188, 156);
+font-weight: bold;
+text-transform: uppercase;
+line-height: 0.786;
 }
 
 .menu-link {
@@ -56,6 +65,7 @@ font-size: 15px;
 color:#0f0101;  
 font-weight: bold;
 text-decoration: none;
+padding: 15px;
 }
 
 .clearfix::after {
@@ -65,7 +75,6 @@ text-decoration: none;
 }
 
 .title {
-    display: block;
     position: relative;
     margin: 0 auto;
     font-weight: bold;
@@ -74,8 +83,7 @@ text-decoration: none;
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    margin-bottom: 122px;
-    margin-top: 109px;
+    margin-bottom: 90px;
 }
 
 .title::after{
@@ -102,8 +110,6 @@ text-decoration: none;
     background-color:#1abc9c;
 
 }
-
- 
 .catalog-title {
     display: block;
     position: relative;
@@ -191,7 +197,6 @@ text-decoration: none;
     text-align:center;
     padding-top: 15px;
     margin-top: 20px;
-    margin-bottom: 80px;
     border-radius: 5px;
 }
 .menu a:hover {
@@ -200,4 +205,18 @@ text-decoration: none;
 .link:hover{
 
     background-color: #03a9f4;;
+}
+.content-wrapper{
+    margin-bottom: 90px;
+}
+.main-content {
+    padding-bottom: 30px;
+}
+.content-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.page-header {
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
