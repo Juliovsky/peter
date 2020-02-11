@@ -89,6 +89,8 @@ a: {
         position:absolute;
         left:43%;
         right:57%;
+        margin-bottom: 60px;
+
     }
     
     .contene-list {
