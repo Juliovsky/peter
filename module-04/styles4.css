@@ -66,6 +66,7 @@ color:#0f0101;
 font-weight: bold;
 text-decoration: none;
 padding: 15px;
+display: block;
 }
 
 .clearfix::after {
@@ -111,10 +112,8 @@ padding: 15px;
 
 }
 .catalog-title {
-    display: block;
     position: relative;
     margin-bottom: 10px;
-    padding-top: 20px;
  
     
 }
@@ -206,17 +205,16 @@ padding: 15px;
 
     background-color: #03a9f4;;
 }
-.content-wrapper{
-    margin-bottom: 90px;
-}
+
 .main-content {
     padding-bottom: 30px;
 }
 .content-wrapper {
-    padding-top: 10px;
+    padding-top: 80px;
     padding-bottom: 20px;
+    margin-bottom: 80px;
 }
-.page-header {
-    margin-top: 30px;
-    margin-bottom: 100px;
+
+.news-image {
+    margin-bottom: 10px;
 }
