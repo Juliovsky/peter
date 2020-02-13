@@ -59,15 +59,17 @@
     color: rgb(26, 188, 156);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 0.786;
-        }
+  }
 
 .menu-link {
      color:#0f0101;  
     font-weight: bold;
     text-decoration: none;
-    padding: 15px;
     display: block;
+    }
+
+.menu-item:not(:last-child) {
+    margin-right:15px;
     }
 
 .img-cover {
@@ -91,15 +93,17 @@
 
 .header__title {
     text-align: center;
-    font-size: 30px;
+    font-size: 60px;
     font-family: "Roboto";
     font-weight: bold;
     color:#ffffff;
     text-transform: uppercase;
     line-height: 1.367;
+    margin-top: 0;
   }
   
   .header__description {
+  font-size: 24px;
    text-align: left;
    font-weight: 300;
    color:#ffffff;
@@ -109,11 +113,14 @@
   }
   .signature {
     position: absolute;
+    font-size: 60px;
+    width: 800px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-
   } 
+  
+  
   .slider-btn-wrapper {
     position: absolute;
     left: 50%;
@@ -159,13 +166,12 @@
   }
     .title::after{
     display: block;
-    margin: 0 auto;
+    margin: 30px auto 0;
     content: "";
     height: 4px;
     width: 161px;
     background-color:#1abc9c;
-    left: 43%;
-    margin-top: 30px;
+
 }
 .list{
     float: left;
@@ -213,12 +219,14 @@
 .wrapper{
   color: #ffffff;
 }
+.icons-menu{
+  float: left;
+}
 
 .icons-link {
 width: 50px;
 height: 50px;
 border: #ffffff 1px solid;
-float: left;
 background-color: rgba(255, 255, 255, 0);
 cursor: pointer;
 }
@@ -275,7 +283,7 @@ cursor: pointer;
   position:relative;
 }
 
-.icons-link:nth-child(-n+2){
+.icons-menu:nth-child(-n+2){
   margin-right: 9px;
 }
 .social-icons{
@@ -297,10 +305,26 @@ cursor: pointer;
     text-transform: uppercase;
     line-height: 2.286;
     text-align: center;
-  
 }
-
-
+.main {
+  background-color: #e9f0fd;
+}
+.footer{
+  background-color: #323232;
+  height: 80px;
+}
+.text-footer{
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(254, 254, 254);
+  line-height: 1.75;
+  text-align: center;
+  padding-top: 25px;
+}
+.footer-link{
+display: inline;
+color:#45b6a1;
+}
 
 
 
