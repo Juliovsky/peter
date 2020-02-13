@@ -89,8 +89,9 @@
   position: absolute;
   background-color: rgba(0, 0, 2, 0.522);
 }
-      
-
+.card-style{
+  background-color: #323232;
+}
 .header__title {
     text-align: center;
     font-size: 60px;
@@ -155,7 +156,7 @@
   .title {
     position: relative;
     margin: 0 auto;
-    font-weight: bold;
+    font-weight: 900;
     color: #515151;
     text-align: center;
     font-size: 48px;
@@ -178,8 +179,6 @@
     position: relative;
 }
 .product {
-
-    background-color: #323232;
     color: white;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -195,9 +194,9 @@
 .price {
   text-align: center;
   float: right;
-  opacity: 0.439;
   width: 55px;
-
+  background-color: rgba(255, 255, 255, 0.439);
+  
 } 
 
 .list:hover .name {
