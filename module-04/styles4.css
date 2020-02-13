@@ -68,7 +68,7 @@ text-decoration: none;
 padding: 15px;
 display: block;
 }
-
+ 
 .clearfix::after {
     display: table;
     content: '';
@@ -87,16 +87,7 @@ display: block;
     margin-bottom: 90px;
 }
 
-.title::after{
-    display: block;
-    margin: 0 auto;
-    content: "";
-    height: 4px;
-    width: 100px;
-    background-color:#1abc9c;
-    left: 43%;
-    margin-top: 30px;
-}
+
 
 .list{
         float: left;
@@ -164,10 +155,9 @@ display: block;
     
 }
 .price {
-    padding-top: 8px;
+    padding-top: 10px;
     opacity: 0.439;
     width: 55px;
-    height: 20px;
 } 
 
 .list-news {
