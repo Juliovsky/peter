@@ -181,6 +181,9 @@
   position:relative;
 
 }
+.cards{
+  width: 380px;
+}
 .card-title{
   font-size: 14px;
   font-family: "Montserrat";
@@ -214,7 +217,7 @@
   font-family: "Roboto";
   color: rgb(153, 153, 153);
   line-height: 1.6;
-  width: 942px;
+  max-width:942px;
   text-align: center;
   padding-bottom: 90px;
   }
@@ -240,9 +243,9 @@
 }
 
 .overlay{
-  width: 380px;
-  height: 470px;
-  background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgba(243,129,129, 0.9) 100%);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -253,14 +256,18 @@
 .cards:hover .overlay{
 transition: all 200ms linear;
 box-shadow: 8px 10px 0px 1px rgb(149,225,211);
-transform: translate(-2%, -2%);
-opacity: 0.9;
+transform: translate(-10px, -10px);
+opacity: 1;
 visibility: visible;
+}
+
+.cards:hover .cards-img{
+  transform: translate(-10px, -10px);
+  transition: all 200ms linear;
 }
 
 .img-cont {
 position: relative;
-
 }
 
 .icons-link {
@@ -313,7 +320,6 @@ border: none;
   font-size: 14px;
   font-family: "Montserrat";
   color: rgb(51, 51, 51);
-  /* line-height: 1.2; */
   }
   .special{
     color:#f38181;
@@ -326,12 +332,16 @@ border: none;
   .email{
     width: 230px;
     height: 40px;
-    border:rgb(204, 204, 204) 1px solid  ;
+    border:rgb(204, 204, 204) 1px solid;
     font-size: 14px;
     font-family: "Roboto";
-    color: rgb(204, 204, 204);
+    color: rgb(51, 51, 51);
     font-style: italic;
+    padding-left: 10px;
+  }
 
+  .email::placeholder {
+    color: rgb(204, 204, 204);
   }
   
   .footer-button {
@@ -345,6 +355,7 @@ border: none;
     font-weight: bold;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
     }
      
   .footer{

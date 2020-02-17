@@ -1,0 +1,127 @@
+
+:root {
+    --main-color:#fed136
+  }
+
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kaushan Script'), local('KaushanScript-Regular'),
+       url('../fonts/kaushan-script-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/kaushan-script-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Montserrat Medium'), local('Montserrat-Medium'),
+         url('../fonts/montserrat-v14-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kaushan Script'), local('KaushanScript-Regular'),
+         url('../fonts/kaushan-script-v8-latin-regular.woff2') format('woff2'), 
+         url('../fonts/kaushan-script-v8-latin-regular.woff') format('woff'); 
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    display: block;
+  }
+
+.container {
+    width: 58.75rem;
+    margin: 0 auto;
+  }
+.logo{
+    font-size: 1.625rem;
+    font-family: 'Kaushan Script',sans-serif;
+    color:var(--main-color);
+    line-height: 1.577;
+      
+      }
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    width:31.25rem;
+}
+.header-menu-link{
+    font-size: 0.875rem;
+    font-family: "Montserrat";
+    color: #222222;
+    text-transform: uppercase;
+    line-height: 2.929;
+    font-weight: bold;
+    transition: color 500ms linear 0s;
+    }
+.header-menu-link:hover{
+    color: var(--main-color);
+}
+.page-header{
+    padding-top: 3.125rem;
+    padding: bottom 7.8125rem;
+}
+.signature-container{
+    display: flex;
+    text-align: center;
+   flex-direction: column;
+}
+.signature{
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.875;
+      }
+.title{
+  display: block;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(119, 119, 119);
+  line-height: 1.2;
+   
+  }
+  
+
+}
