@@ -32,8 +32,7 @@
   }
   
 .page-header {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
+   
     padding-top: 40px;
     padding-bottom: 30px;
 }
@@ -62,10 +61,10 @@
   }
 
 .menu-link {
-     color:#0f0101;  
+    color:#0f0101;  
     font-weight: bold;
     text-decoration: none;
-    display: block;
+    /* display: block; */
     }
 
 .menu-item:not(:last-child) {
@@ -323,6 +322,10 @@ cursor: pointer;
 .footer-link{
 display: inline;
 color:#45b6a1;
+}
+
+.main-section{
+  padding-top: 125px;
 }
 
 
