@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,67 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-<header class="page-header">
-    <nav class="container nav-bar">
-        <a href="" class="logo">Golden</a>
-        <ul class="header-menu">
-            <li class="header-menu-item"><a href="#" class="header-menu-link">home</a></li>
-            <li class="header-menu-item"><a href="#" class="header-menu-link">services</a></li>
-            <li class="header-menu-item"><a href="#" class="header-menu-link">portfolio</a></li>
-            <li class="header-menu-item"><a href="#" class="header-menu-link">about</a></li>
-            <li class="header-menu-item"><a href="#" class="header-menu-link">contact</a></li>
+    <header class="page-header">
+        <nav class="container nav-bar">
+            <a href="" class="logo">Golden</a>
+            <ul class="header-menu">
+                <li class="header-menu-item"><a href="#" class="header-menu-link">home</a></li>
+                <li class="header-menu-item"><a href="#" class="header-menu-link">services</a></li>
+                <li class="header-menu-item"><a href="#" class="header-menu-link">portfolio</a></li>
+                <li class="header-menu-item"><a href="#" class="header-menu-link">about</a></li>
+                <li class="header-menu-item"><a href="#" class="header-menu-link">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-section container">
+        <div class="signature-container">
+            <h1 class="signature">Services<span class="title">Proin iaculis purus consequant sem cure.</span></h1>
+        </div>
+        <ul class="text-list">
+            <li class="list">
+                <div class="cards">
+                    <h3 class="cards-title">E-Commerce</h3>
+                    <p class="text-signature">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </li>
+            <li class="list">
+                <div class="cards">
+                    <h3 class="cards-title">Responsive Web</h3>
+                    <p class="text-signature">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </li>
+            <li class="list">
+                <div class="cards">
+                    <h3 class="cards-title">Web Security</h3>
+                    <p class="text-signature">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </div>
+            </li>
         </ul>
-</nav>
-</header>
-<section class="main-section container">
-    <div class="signature-container">
-    <h1 class="signature">Services<span class="title">proin iaculis purus consequant sem cure.</span></h1>
-    </div>  
-</section>  
+    </section>
+    <section class="map-section">
+        <div class="container">
+            <h3 class="second-title">Contact Us</h3>
+            <p class="second-text">Proin iaculis purus consequat sem cure. </p>
+            <form action="#" class="contact__form container">
+                <div class="left">
+                    <input type="text" name="name" class="contact__form-input" placeholder="Your name *" minlength="2" required>
+                    <input type="email" name="email" class="contact__form-input" placeholder="Your E-mail *" required>
+                    <input type="text" name="subject" class="contact__form-input" placeholder="Your subject *" required>
+                </div>
+                <textarea name="message" class="contact__form-message" placeholder="Write your message *"
+                minlength="10" required></textarea>
+                <div class="button-wrapper">
+                <button type="submit" class="contact__form-btn">Send message</button></div>
+                </form>
+        </div>
+    </section>
 </body>
 </html>
-
-  
