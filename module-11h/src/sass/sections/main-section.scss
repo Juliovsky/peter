@@ -1,0 +1,180 @@
+/* MAIN Section */
+
+.main-section {
+  padding-top: 125px;
+  padding-bottom: 90px;
+}
+
+// .container {
+//   width: 1200px;
+//   margin: 0 auto;
+// }
+
+.signature-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-bottom: 80px;
+
+  &__title {
+    display: block;
+    font-family: 'Kaushan Script';
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+  }
+
+  &__sign {
+    display: block;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-top: 20px;
+
+    &::after {
+      display: block;
+      margin: 40px auto 0;
+      content: "";
+      height: 3px;
+      width: 60px;
+      background-color: #f38181;
+
+    }
+  }
+
+}
+
+// .signature-container__title {
+//   display: block;
+//   font-family: 'Kaushan Script';
+//   font-size: 24px;
+//   color: rgb(51, 51, 51);
+//   line-height: 1.2;
+// }
+
+// .signature-container__sign {
+//   display: block;
+//   font-size: 30px;
+//   font-family: 'Montserrat';
+//   color: rgb(51, 51, 51);
+//   font-weight: bold;
+//   text-transform: uppercase;
+//   line-height: 1.2;
+//   padding-top: 20px;
+
+// }
+
+// .signature-container__sign::after {
+//   display: block;
+//   margin: 40px auto 0;
+//   content: "";
+//   height: 3px;
+//   width: 60px;
+//   background-color: #f38181;
+
+// }
+
+.card-wrapper {
+  padding-top: 60px;
+}
+
+.card-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  &__item {
+    width: 360px;
+    padding-left: 80px;
+
+    &:nth-child(-n+3) {
+      margin-bottom: 100px;
+    }
+  }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    right: 55px;
+    top: 35px;
+  }
+
+  &__title {
+    font-size: 14px;
+    font-family: $font-family;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  &__text{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 20px;
+    text-align: left;
+  }
+
+}
+
+// .card-list__item {
+//   width: 360px;
+//   padding-left: 80px;
+
+// }
+
+// .card-list__item:nth-child(-n+3) {
+//   margin-bottom: 100px;
+// }
+
+// .card-list__icon {
+//   width: 32px;
+//   height: 32px;
+//   position: relative;
+//   right: 55px;
+//   top: 35px;
+// }
+
+// .card-list__title {
+//   font-size: 14px;
+//   font-family: "Montserrat";
+//   color: rgb(51, 51, 51);
+//   text-transform: uppercase;
+//   line-height: 1.2;
+//   text-align: left;
+// }
+
+// .card-list__text {
+//   font-size: 15px;
+//   font-family: "Roboto";
+//   color: rgb(153, 153, 153);
+//   line-height: 1.6;
+//   text-align: center;
+//   padding-top: 20px;
+//   text-align: left;
+// }
+
+.signature {
+  display: block;
+  font-family: 'Kaushan Script';
+  font-size: 24px;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+}
