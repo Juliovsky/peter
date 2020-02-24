@@ -330,9 +330,7 @@ a {
     .main-section{
         padding-bottom: 4.6875rem;
     }
-    .second-title{
-        margin-bottom: 1.75rem;
-    }
+
     }
 @media (max-width: 1299px) {
     .cards-item:nth-child(odd){
